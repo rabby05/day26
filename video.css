@@ -1,0 +1,178 @@
+/* Header_Section_CSS */
+.header{
+    background-color: #3498db;
+}
+.header-logo img{
+    height: auto;
+    width: 200px;
+}
+.header-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    
+}
+.header-menu ul li a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0 20px;
+    line-height: 70px;
+    border-right: 1px solid #ddd;
+    margin-left: -4px;
+
+    transition: .4s;
+}
+.header-menu ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.header-menu ul li a:hover{
+    background-color: #2980b9;
+}
+
+
+/* Banner_Section_CSS */
+.banner{
+    background: url(https://www.digitaland.tv/wp-content/uploads/2016/03/banner_developer-.jpg) no-repeat center;
+    padding: 160px 0;
+    background-size: cover;
+}
+.banner-title{
+    text-align: center;
+    color: #fff;
+}
+.banner-title h2{
+    background-color: rgba(68, 158, 158, 0.534);
+    display: inline-block;
+    font-size: 35px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner-title h1{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgba(20, 102, 224, 0.466);
+    margin-top: 20px;
+}
+
+
+/* About_Section_Css */
+.about{
+    background-color: rgba(186, 248, 248, 0.199);
+}
+.about-content{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-content h1{
+    font-size: 35px;
+}
+.about-content p{
+    font-size: 15px;
+    width: 800px;
+    margin: auto;
+}
+
+
+/* Service_Section_Css */
+.service{
+    
+    background-color: rgba(252, 145, 145, 0.075);
+}
+.service-item{
+    margin: 100px 0;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 15px 20px;
+}
+.service-item span{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background-color: rgb(35, 245, 245);
+    color: #fff;
+    border-radius: 20px 0 20px 0;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 15px 0 10px;
+}
+.service-item h3{
+    font-size: 25px;
+}
+.service-item p{
+    font-size: 15px;
+}
+
+
+/* Blog_Section_Css */
+.blog{
+    padding: 100px 0;
+    background-color: rgba(238, 130, 238, 0.137);
+}
+.blog-item{
+}
+.blog-item img{
+    float: left;
+    height: 150px;
+    width: auto;
+    margin-right: 20px;
+}
+.blog-item p{
+    font-size: 15px;
+}
+.blog-notifacition{
+}
+.blog-notifacition h3{
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.blog-notifacition ul{
+    list-style: none;
+}
+.blog-notifacition ul li{
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    margin-left: -30px;
+    font-size: 16px;
+}
+
+
+/* Footer_Section_Css */
+.footer{
+    background-color: #34495e;
+    margin-bottom: 0;
+}
+.reward p{
+    
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.social-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 15px;
+}
